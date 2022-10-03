@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <div class="header-wrapper-top wrapper">
+            <div class="header-top">
+                <div class="header-logo">
+                    <a href="#!" class="header-logo-link">
+                        <img src="./img/header-logo.png" alt="logo" class="header-logo-img">
+                    </a>
+                </div>
+                <div class="header-gender">
+                    <ul class="header-gender-list">
+                        <li class="header-gender-item">
+                            <a href="#!" class="header-gender-link">Женщины</a>
+                        </li>
+                        <li class="header-gender-item">
+                            <a href="#!" class="header-gender-link">Мужчины</a>
+                        </li>
+                    </ul>
+                    <form  class="header-search" action="">
+                        <p class="header-search-title">поиск</p>
+                        <input class="header-search-input" type="text">
+                    </form>
+                </div>
+                <div class="header-lang">
+                    <ul class="header-lang-list">
+                        <li class="header-lang-item">
+                            <a href="#!" class="header-lang-link lang-link-active">Ru</a>
+                        </li>
+                        <li class="header-lang-item">
+                            <a href="#!" class="header-lang-link">Ua</a>
+                        </li>
+                        <li class="header-lang-item">
+                            <a href="#!" class="header-lang-link">En</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-userMenu">
+                    <ul class="header-userMenu-list">
+                        <li class="header-userMenu-item">
+                            <a href="#!" class="header-userMenu-link">
+                                <img src="./img/header-user.png" alt="user-In" class="header-userMenu-img">
+                            </a>
+                        </li>
+                        <li class="header-userMenu-item">
+                            <a href="#!" class="header-userMenu-link">
+                                <img src="./img/header-like.png" alt="user-like" class="header-userMenu-img">
+                            </a>
+                        </li>
+                        <li class="header-userMenu-item">
+                            <a href="#!" class="header-userMenu-link">
+                                <img src="./img/header-lock.png" alt="lock" class="header-userMenu-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-burger">
+                    <span class="burger-line burger-line-first"></span>
+                    <span class="burger-line burger-line-second"></span>
+                </div>
+            </div>  
+        </div>
+        <div class="window-line header-line"></div>
+        <div class="header-bottom">
+            <div class="wrapper header-wrapper-bottom">
+                <div class="header-directory">
+                        <p class="header-directory-item">
+                            Главная
+                        </p>
+                        <p class="header-directory-item">
+                            Женщины
+                        </p>
+                        <p class="header-directory-item">
+                            Одежда
+                        </p>
+                        <p class="header-directory-item">
+                            Кофты и пиджаки
+                        </p>  
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-wrapper wrapper">
+            
+            <aside class="aside">
+
+                <div class="aside-top">
+                    <button type="button" class="aside-gender-btn aside-gender-female">
+                        <p class="aside-gender-text aside-female-text ">
+                            Женщины
+                        </p>
+                    </button>
+                    <button type="button" class="aside-gender-btn aside-gender-male">
+                        <p class="aside-gender-text aside-male-text">
+                            Мужчины
+                        </p>
+                    </button>
+                </div>
+
+                <nav class="aside-nav">
+                    <ul class="nav-title-list">
+                        <li class="nav-title-item ">ОДЕЖДА
+                            <ul class="nav-subtitle-list ">
+                                <li class="nav-subtitle-item">
+                                    <a href="!#" class="nav-subtitle-link">Свитера толстовки</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Платья юбки</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Футболки и топы</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Брюки и шорты</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="!#" class="nav-subtitle-link">Рубашки</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Комбинезоны</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Леггинсы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-title-item">ОБУВЬ
+                            <ul class="nav-subtitle-list ">
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Спортивная</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Классическая</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">С острым носком</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Кожа крокодила</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-title-item">СУМКИ
+                            <ul class="nav-subtitle-list ">
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">На левое плечо</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">На зависть соседки</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">С отсеком для животных</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Походная</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-title-item">АКСЕСУАРЫ
+                            <ul class="nav-subtitle-list ">
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Для волос</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Зонты</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="!#" class="nav-subtitle-link">Очки</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Перчатки и варежки</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Чехлы</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-title-item">БЕЛЬЕ
+                            <ul class="nav-subtitle-list">
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Боди</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Бюстгалтеры</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Корсеты</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Чулки</a>
+                                </li>
+                                <li class="nav-subtitle-item">
+                                    <a href="#!" class="nav-subtitle-link">Трусы</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            
+            <section class="catalog">
+                <div class="catalog-wrapper">
+                   
+                    <div class="catalog-title">
+                        Кофти та піджаки
+                    </div>
+                    
+                    <div class="catalog-filter-list">
+
+                        <div class="catalog-filter-item">
+                            <button class="catalog-filter-btn">
+                                <span class="filter-btn-text">Размер</span>  
+                                <div class="filter-arrow arrow-down">    <!--class="active-arrow-up" добавить при всплытии окна-->
+                                </div> 
+                            </button>
+                            <div class="filter-window-up ">  <!-- class='filter-window-active' для всплытия окна-->
+                                <div class="filter-size-list">
+                                    <div class="filter-size-wrapper">
+                                        <div class="filter-size-item">XS</div> <!-- if click add class="size-red"-->
+                                        <div class="filter-size-item">S</div>
+                                        <div class="filter-size-item">M</div>
+                                        <div class="filter-size-item">L</div>
+                                        <div class="filter-size-item">XL</div>
+                                        <div class="filter-size-item">XP</div>
+                                    </div>
+                                </div>
+                                <button class="filter-btn-set">Применить</button>
+                            </div>
+                        </div>
+                        <div class="catalog-filter-item">
+                            <button class="catalog-filter-btn">
+                                <span class="filter-btn-text">Цвет</span>  
+                                <div class="filter-arrow arrow-down">    <!--class="active-arrow-up" добавить при всплытии окна-->
+                                </div> 
+                            </button>
+                            <div class="filter-window-up ">  <!-- class='filter-window-active' для всплытия окна-->
+                                <div class="filter-color-list">
+                                    <div class="filter-color-wrapper">
+                                        <div class="filter-color-item">красный</div> <!-- if click add class="size-red"-->
+                                        <div class="filter-color-item">синий</div>
+                                        <div class="filter-color-item">оранжевый</div>
+                                        <div class="filter-color-item">белый</div>
+                                        <div class="filter-color-item">черный</div>
+                                    </div>
+                                </div>
+                                <button class="filter-btn-set">Применить</button>
+                            </div>
+                        </div>
+                        <div class="catalog-filter-item">
+                            <button class="catalog-filter-btn">
+                                <span class="filter-btn-text">Бренд</span>  
+                                <div class="filter-arrow arrow-down">    <!--class="active-arrow-up" добавить при всплытии окна-->
+                                </div> 
+                            </button>
+                        </div>
+                        <div class="catalog-filter-item">
+                            <button class="catalog-filter-btn">
+                                <span class="filter-btn-text">Цена</span>  
+                                <div class="filter-arrow arrow-down">    <!--class="active-arrow-up" добавить при всплытии окна-->
+                                </div> 
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="catalog-sort-row">
+                        <div class="number-products">
+                            <span class="number-products-text">1200 товаров</span>
+                        </div>
+                        <div class="catalog-sort-list">
+                            <span class="catalog-sort-text">Сортировать: </span><button class="catalog-sort-value">Новинки<div class="sort-arrow arrow-down "></div></button> <!--class="active-arrow-up" при всплытии окна-->
+                            <div class="window-up-sort">    <!--class="window-up-sort-active" для активации окна всплывающего -->
+                                <div class="window-up-sort-wrapper">
+                                    <p class="window-up-title">Сортировка</p>
+                                    <div class="window-up-close"></div>
+                                    <!--<ul class="window-up-sort-list">
+                                        <li class="window-up-sort-item">
+                                            <button class="window-up-sort-btn">Новинки</button>
+                                        </li>
+                                        <li class="window-up-sort-item">
+                                            <button class="window-up-sort-btn">По возрастанию цены</button>
+                                        </li>
+                                        <li class="window-up-sort-item">
+                                            <button class="window-up-sort-btn">По убыванию цены</button>
+                                        </li>   
+                                    </ul>-->
+                                    <div class="window-up-sort-list">
+                                        <form action="" method="post">
+                                            <div class="window-up-sort-item">
+                                                <input type="radio" name="sort" id="sort1" value="new" >
+                                                <label class="window-up-sort-btn" for="sort1">Новинки</label>
+                                            </div>
+                                            <div class="window-up-sort-item">
+                                                <input type="radio" name="sort" id="sort2" value="price-increase" >
+                                                <label class="window-up-sort-btn" for="sort2">По возрастанию цены</label>
+                                            </div>
+                                            <div class="window-up-sort-item">
+                                                <input type="radio" name="sort" id="sort3" value="price-decrease" >
+                                                <label class="window-up-sort-btn" for="sort3">По убыванию цены</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mobile-sort-filter ">
+                        <div class="mobile-sort-filter-item ">
+                            <button class="mobile-filter-btn ">
+                                <span class="mobile-filter-text">Фильтры</span>  
+                                <div class="filter-arrow arrow-down">   
+                                </div> 
+                            </button>
+                        </div>
+                        <div class="mobile-sort-filter-item">
+                            <button class="mobile-filter-btn mobile-sort-item ">
+                                <span class="mobile-sort-text">Сортировать</span>  
+                                <div class="filter-arrow arrow-down">   
+                                </div> 
+                            </button>
+                        </div>
+
+                        <div class="mobile-sort-window window-up-sort ">   <!--class="window-up-sort-active" для активации окна всплывающего -->
+                            <div class="mobile-window-wrapper window-up-sort-wrapper">
+                                <p class="window-up-title">Сортировка</p>
+                                <div class="window-up-close mobile-sort-close"></div>
+                                <!--<ul class="window-up-sort-list">
+                                    <li class="window-up-sort-item">
+                                        <button class="window-up-sort-btn">Новинки</button>
+                                    </li>
+                                    <li class="window-up-sort-item">
+                                        <button class="window-up-sort-btn">По возрастанию цены</button>
+                                    </li>
+                                    <li class="window-up-sort-item">
+                                        <button class="window-up-sort-btn">По убыванию цены</button>
+                                    </li>  
+                                </ul>  --> 
+                                <div class="window-up-sort-list">
+                                    <form action="" method="post">
+                                        <div class="window-up-sort-item">
+                                            <input type="radio" name="sort-mob" id="sort1-mob" value="new" >
+                                            <label class="window-up-sort-btn" for="sort1-mob">Новинки</label>
+                                        </div>
+                                        <div class="window-up-sort-item">
+                                            <input type="radio" name="sort-mob" id="sort2-mob" value="price-increase" >
+                                            <label class="window-up-sort-btn" for="sort2-mob">По возрастанию цены</label>
+                                        </div>
+                                        <div class="window-up-sort-item">
+                                            <input type="radio" name="sort-mob" id="sort3-mob" value="price-decrease" >
+                                            <label class="window-up-sort-btn" for="sort3-mob">По убыванию цены</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mobile-filtr-window "> <!--class="window-up-sort-active" для активации окна всплывающего -->
+                            <div class="mobile-window-wrapper window-up-sort-wrapper">
+                                <p class="window-up-title">Фильтр</p>
+                                <div class="window-up-close mobile-filter-close"></div> 
+                                <div class="mobile-gender-items">
+                                    <button type="button" class="mobile-gender-btn mobile-gender-female">
+                                        <p class="mobile-gender-text aside-gender-text mobile-female-text ">
+                                            Женщины
+                                        </p>
+                                    </button>
+                                    <button type="button" class="mobile-gender-btn mobile-gender-male">
+                                        <p class="mobile-gender-text aside-gender-text mobile-male-text">
+                                            Мужчины
+                                        </p>
+                                    </button>
+                                </div>
+                                <nav class="aside-nav">
+                                    <ul class="nav-title-list">
+                                        <li class="nav-title-item ">ОДЕЖДА
+                                            <ul class="nav-subtitle-list ">
+                                                <li class="nav-subtitle-item">
+                                                    <a href="!#" class="nav-subtitle-link">Свитера толстовки</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Платья юбки</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Футболки и топы</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Брюки и шорты</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="!#" class="nav-subtitle-link">Рубашки</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Комбинезоны</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Леггинсы</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-title-item">ОБУВЬ
+                                            <ul class="nav-subtitle-list ">
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Спортивная</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Классическая</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">С острым носком</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Кожа крокодила</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-title-item">СУМКИ
+                                            <ul class="nav-subtitle-list ">
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">На левое плечо</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">На зависть соседки</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">С отсеком для животных</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Походная</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-title-item">АКСЕСУАРЫ
+                                            <ul class="nav-subtitle-list ">
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Для волос</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Зонты</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="!#" class="nav-subtitle-link">Очки</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Перчатки и варежки</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Чехлы</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-title-item">БЕЛЬЕ
+                                            <ul class="nav-subtitle-list">
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Боди</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Бюстгалтеры</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Корсеты</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Чулки</a>
+                                                </li>
+                                                <li class="nav-subtitle-item">
+                                                    <a href="#!" class="nav-subtitle-link">Трусы</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+
+                    <div class="catalog-cards">
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/george-gina-lucy.jpg" alt="george gina lucy" class="card-img">
+                                <div class="card-sale card-sale-percent">40 %</div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">george gina lucy</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price"></span>
+                                <span class="card-price card-price-old">6100 UAH</span>
+                                <span class="card-price card-price-sale">3800 UAH</span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/george-gina-lucy.jpg" alt="george gina lucy" class="card-img">
+                                <div class="card-sale-percent">40 %</div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">george gina lucy</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price"></span>
+                                <span class="card-price card-price-old">6100 UAH</span>
+                                <span class="card-price card-price-sale">3800 UAH</span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/american-vintage-1.jpg" alt="American vintage" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">American vintage</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+                        
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/american-vintage-2.jpg" alt="American vintage" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">American vintage</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-1.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">DEHA</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-1.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">DEHA</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/american-vintage-3.jpg" alt="American vintage" class="card-img">
+                                <div class="card-sale card-sale-percent">40 %</div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">American vintage</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price"></span>
+                                <span class="card-price card-price-old">6100 UAH</span>
+                                <span class="card-price card-price-sale">3800 UAH</span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-1.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale card-sale-percent">40 %</div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">American vintage</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price"></span>
+                                <span class="card-price card-price-old">6100 UAH</span>
+                                <span class="card-price card-price-sale">3800 UAH</span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-2.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">DEHA</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/american-vintage-2.jpg" alt="American vintage" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">American vintage</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-1.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">DEHA</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-1.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">DEHA</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/american-vintage-3.jpg" alt="American vintage" class="card-img">
+                                <div class="card-sale card-sale-percent">40 %</div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">American vintage</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price"></span>
+                                <span class="card-price card-price-old">6100 UAH</span>
+                                <span class="card-price card-price-sale">3800 UAH</span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-1.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale card-sale-percent">40 %</div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">American vintage</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price"></span>
+                                <span class="card-price card-price-old">6100 UAH</span>
+                                <span class="card-price card-price-sale">3800 UAH</span>  
+                            </p>
+                        </div>
+
+                        <div class="catalog-card">
+                            <div class="card-pict">
+                                <img src="./img/catalog/deha-2.jpg" alt="DEHA" class="card-img">
+                                <div class="card-sale"></div>
+                                <div class="card-heart"></div>
+                            </div>
+                            <p class="card-title">DEHA</p>
+                            <p class="card-subtitle">Classic shoes</p>
+                            <p class="card-price-list">
+                                <span class="card-price">3800 UAH</span>
+                                <span class="card-price card-price-old"></span>
+                                <span class="card-price card-price-sale"></span>  
+                            </p>
+                        </div> 
+
+                    </div>
+
+                    <div class="catalog-btn-container">
+                        <button class="catalog-btn catalog-btm-more">Показать больше</button>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+        
+    </main>
+
+
+    <div class="window-line main-line"></div>
+
+
+    <footer class="footer">
+
+        <div class="footer-wrapper">
+            <p class="footer-title">Будьте в курсе событий</p>
+            <input type="email" name="email-user" id="" class="footer-email-user" placeholder="E-mail">
+            <ul class="footer-about-list">
+                <li class="footer-about-item">
+                    <a href="#!" class="footer-about-link">О нас</a>
+                </li>
+                <li class="footer-about-item">
+                    <a href="#!" class="footer-about-link">Распространенные вопросы</a>
+                </li>
+                <li class="footer-about-item">
+                    <a href="#!" class="footer-about-link">Бренды</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="window-line footer-line"></div>
+
+        <div class="footer-copyright">
+            <div class="wrapper">
+                <div class="copyright-container">
+                    <span class="copyright-item">Все права защищены  © 2020 Allegria.com</span>
+                    <span class="copyright-item">Дизайн и разработка:</span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
