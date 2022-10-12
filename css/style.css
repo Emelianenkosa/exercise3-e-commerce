@@ -335,6 +335,11 @@ img {
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.filter-color-item {
+    display: block;
+    padding: 10px;
+    
+}
 .size-red {
     background-color: red;
     color: white;
